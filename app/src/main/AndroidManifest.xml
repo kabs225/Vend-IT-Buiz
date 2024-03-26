@@ -13,6 +13,18 @@
         android:theme="@style/Theme.VenditBuiz"
         tools:targetApi="31">
         <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".product_details1"
+            android:exported="false" />
+        <activity
+            android:name=".machine_name1"
+            android:exported="false" />
+        <activity
+            android:name=".inventory1"
+            android:exported="false" />
+        <activity
             android:name=".SignUpPage"
             android:exported="false" />
         <activity
