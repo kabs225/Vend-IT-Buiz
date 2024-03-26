@@ -36,6 +36,7 @@ public class LoginPage extends AppCompatActivity {
                     user_name1 = "srushti";
                     Toast.makeText(LoginPage.this, "LOGIN SUCCESS",Toast.LENGTH_SHORT).show();
                     openMachineSelectionPage();
+
                 }
                 else
                     Toast.makeText(LoginPage.this, "LOGIN FAIL",Toast.LENGTH_SHORT).show();
@@ -44,8 +45,8 @@ public class LoginPage extends AppCompatActivity {
     }
     public void openMachineSelectionPage()
     {
-       /* Intent intent = new Intent(this, MachineSelectionPage.class);
-        startActivity(intent);*/
+        Intent intent = new Intent(this, machine_name1.class);
+        startActivity(intent);
     }
 
     public static String getusername1()
