@@ -86,8 +86,8 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="427dp"
-        android:layout_height="252dp"
+        android:layout_width="413dp"
+        android:layout_height="242dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profilebg" />
@@ -109,7 +109,7 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="53dp"
         android:text="Srushti Mohile"
         android:textSize="25sp"
@@ -141,7 +141,7 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="20dp"
         android:text="Owner"
         android:textSize="18sp"

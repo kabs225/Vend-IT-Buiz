@@ -42,7 +42,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="45dp"
         android:text="Product Details"
         android:textColor="@color/black"
@@ -78,8 +78,8 @@
         android:id="@+id/imageView16"
         android:layout_width="348dp"
         android:layout_height="130dp"
-        android:layout_marginStart="31dp"
         android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
         app:srcCompat="@drawable/box" />
@@ -109,8 +109,8 @@
         android:id="@+id/imageView161"
         android:layout_width="348dp"
         android:layout_height="130dp"
-        android:layout_marginStart="31dp"
         android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16"
         app:srcCompat="@drawable/box" />
@@ -174,9 +174,8 @@
         android:id="@+id/imageView18"
         android:layout_width="129dp"
         android:layout_height="88dp"
-        android:layout_marginStart="33dp"
         android:layout_marginTop="52dp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/imageView171"
         app:srcCompat="@drawable/kurkure" />
 
@@ -225,11 +224,10 @@
         android:id="@+id/btnProductdetails"
         android:layout_width="149dp"
         android:layout_height="72dp"
+        android:layout_marginStart="-10dp"
         android:layout_marginTop="76dp"
         android:background="@android:color/transparent"
         android:text=""
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.19"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
